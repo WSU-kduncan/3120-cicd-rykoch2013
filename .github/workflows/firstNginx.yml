@@ -5,8 +5,8 @@ on:
     branches: [main]
     workflow-dispatch:
 jobs:
-  runNginx:
+  first-run:
       runs-on: ubuntu-latest
       steps:
         - run: echo "Starting"
-        - uses: actions/checkout@v1
+        - uses: actions/checkout@v2
