@@ -1,11 +1,10 @@
 name: Docker-First-Nginx
-
 on:
   push:
     branches: [main]
     workflow-dispatch:
 jobs:
-  first-run:
+  first-attempt:
       runs-on: ubuntu-latest
       steps:
         - run: echo "Starting"
