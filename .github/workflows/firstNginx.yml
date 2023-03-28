@@ -1,0 +1,12 @@
+name: Docker-First-Nginx
+
+on:
+  push:
+    branches: [main]
+    workflow-dispatch:
+jobs:
+  runNginx:
+      runs-on: ubuntu-latest
+      steps:
+        - run: echo "Starting"
+        - uses: actions/checkout@v1
