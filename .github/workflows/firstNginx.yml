@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v1
         with:
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/${{ env.DOCKER_HUB_REPO }}:latest
+          tags: ${{ env.DOCKER_HUB_REPO }}:latest
