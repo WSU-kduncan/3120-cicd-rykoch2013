@@ -2,7 +2,9 @@
 
 ## CI Project Overview
 
-This project uses docker and nginx to create an image to host a website.
+This project creates an image using docker to host a website using by using nginx. Using GitHub actions, an image is built and pushed to a DockerHub public repository.
+
+![Flowchart](./images/Project4.png)
 
 ## Part 1: Requirements and Running a Container
 - Docker desktop installed from [docker.com](https://www.docker.com/)
