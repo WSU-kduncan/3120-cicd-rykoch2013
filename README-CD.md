@@ -36,12 +36,11 @@
 
 - Setting up `webhook`
 
-
-
-
 - `webhook` task definition file
-
-
+	- Identifies and gives a list of commands when a signal is sent from docker to the webhook's html address
+	- Generate an identifier: `"id": project5Webhook`
+	- List  commands to be executed when notified: `"execute-command": "/home/ubuntu/3120-cicd-rykoch2013/deployment/pullScript.sh"`
+	- list directory to execute commands within: `"command-working-directory": "/var/webhooks"`
 
 - Docker listener messaging configuration
 	- Go to repository on hub.docker and select webhooks
