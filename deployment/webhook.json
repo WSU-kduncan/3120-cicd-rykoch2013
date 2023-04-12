@@ -1,0 +1,7 @@
+[
+  {
+    "id": "project5Webhook",
+    "execute-command": "/home/ubuntu/3120-cicd-rykoch2013/deployment/pullScript.sh",
+    "command-working-directory": "/var/webhooks"
+  }
+]

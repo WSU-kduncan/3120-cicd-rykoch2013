@@ -1,4 +1,5 @@
 #!/bin/sh
+
 # Pull latest version of the image
 docker pull koch64/first_nginx_image
 # Stop the container
