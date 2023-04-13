@@ -35,6 +35,8 @@
 	- run the pulled image detached over ports80:80 with name project5: ` docker run -p 80:80 -d --name project5 koch64/first_nginx_image`
 
 - Setting up `webhook`
+	- webhook installed using `sudo apt-get install webhook`
+	- to activate webhooks, run `webhook -hooks webhook.json -verbose`. It is recommended to run in a separate window
 
 - `webhook` task definition file
 	- Identifies and gives a list of commands when a signal is sent from docker to the webhook's html address
